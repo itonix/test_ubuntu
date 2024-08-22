@@ -11,10 +11,10 @@
 
 apt update && apt upgrade -y
 ---------------------------------------------------------
-To view ubuntu release version:
 
 
-#lsb_release -a
+#lsb_release -a        To view ubuntu release version:    or cat /etc/os-release
+---------------------------------------------------------
 
 root@mytestvm:~# lsb_release -a
 No LSB modules are available.
@@ -22,6 +22,9 @@ Distributor ID:	Ubuntu
 Description:	Ubuntu 24.04 LTS
 Release:	24.04
 Codename:	noble
+
+cat /etc/os-release
+
 
 --------------------------------------------------------------
 
